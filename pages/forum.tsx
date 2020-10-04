@@ -1,14 +1,15 @@
 import Head from 'next/head'
 import Forum from 'disqplus'
-
-import '@fortawesome/fontawesome-free/js/all'
+import { useRouter } from 'next/dist/client/router'
 
 const container = {
   margin: '0 auto',
   maxWidth: 1240,
 }
 
-export default function Home(): JSX.Element {
+export default function ForumPage(): JSX.Element {
+  const router = useRouter()
+
   return (
     <div style={container}>
       <Head>
@@ -23,7 +24,7 @@ export default function Home(): JSX.Element {
       <Forum
         forumName="in-thinair"
         apiKey="E8Uh5l5fHZ6gD8U3KycjAIAk46f68Zw7C6eW8WSjZvCLXebZ7p0r1yrYDrLilk2F"
-        link="https://in-thinair.com/2020/10/03/orange-overview-october-3-2020/"
+        link={typeof router.query.link === 'string' ? router.query.link : ''}
         limit={100}
       />
     </div>
