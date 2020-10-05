@@ -2663,7 +2663,7 @@ diffie-hellman@^5.0.0:
 
 "disqplus@github:ksweetie/disqplus":
   version "0.0.6"
-  resolved "https://codeload.github.com/ksweetie/disqplus/tar.gz/cf6c45f32c8c6779b9087f827a0d9b08cdfc9432"
+  resolved "https://codeload.github.com/ksweetie/disqplus/tar.gz/5e215683b1c3c971fdda314c42968b790de78b6d"
   dependencies:
     "@emotion/core" "^10.0.28"
     "@fortawesome/fontawesome-svg-core" "^1.2.31"
