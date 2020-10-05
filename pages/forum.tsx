@@ -26,6 +26,7 @@ export default function ForumPage(): JSX.Element {
         apiKey="E8Uh5l5fHZ6gD8U3KycjAIAk46f68Zw7C6eW8WSjZvCLXebZ7p0r1yrYDrLilk2F"
         link={typeof router.query.link === 'string' ? router.query.link : ''}
         limit={100}
+        proxy="https://damp-island-58871.herokuapp.com"
       />
     </div>
   )
