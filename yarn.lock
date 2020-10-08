@@ -2661,9 +2661,10 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-"disqplus@github:ksweetie/disqplus":
-  version "0.0.6"
-  resolved "https://codeload.github.com/ksweetie/disqplus/tar.gz/5e215683b1c3c971fdda314c42968b790de78b6d"
+disqplus@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/disqplus/-/disqplus-0.0.7.tgz#d67e98d974bf0cc9d25d78eeecbd447e67be9025"
+  integrity sha512-Aj1tFc++ONp86dOcSGEZQgq2DOKw7kKXzQ6yjQ6GlOSfeQc9Uu2p6PYJRjl7GUKHAV1Pu8rFkuAIu0WFJMgAHQ==
   dependencies:
     "@emotion/core" "^10.0.28"
     "@fortawesome/fontawesome-svg-core" "^1.2.31"
